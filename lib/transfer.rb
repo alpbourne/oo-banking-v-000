@@ -18,7 +18,9 @@ class Transfer
     if self.status == "complete" || self.amount > receiver.balance || self.valid? == false
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
+    else
       
+
   end
 
 end
