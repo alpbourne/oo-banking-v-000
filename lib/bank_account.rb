@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def self.deposit
-    @balance << self
+    @balance + self
   end
 
 end
