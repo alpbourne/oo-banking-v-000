@@ -15,4 +15,3 @@ class Transfer
   end
   
 end
-
