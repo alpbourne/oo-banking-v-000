@@ -10,11 +10,11 @@ class BankAccount
   end
 
   def deposit(money)
-    @current_balance = @balance + money
+    @balance += money
   end
 
   def display_balance
-    "Your balance is $#{@current_balance}."
+    "Your balance is $#{@balance}."
   end
 
 end
