@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(money)
-    @current_balance = (@balance +money)
+    @current_balance = (@balance + money)
   end
 
   def display_balance
